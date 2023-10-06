@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+#featured-image {
+    display:block;
+    border-radius:5px;
+    width:100%;
+    height:400px;
+    background-image:url(https://cdn.thecrazytourist.com/wp-content/uploads/2017/08/ccimage-shutterstock_572547931.jpg);
+    background-position:center;
+    background-size:cover;
+    margin-bottom:30px;
+}
+
+#title {
+     font-family:var(--heading-font);
+     font-size:30px;
+}
+
+main {
+    width: 80%;
+    display:block;
+    width:950px;
+    height:auto;
+    margin:75px auto 50px auto;
+}
+
+section {margin-left: 0;}
+
+main, section {width: 80vw;}
+
+nav {
+    text-align: center;
+    padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s; /* Added transition property */
+}
+
+a:hover {
+  background-color: #ffeb3b;
+  color: #000;
+  border-radius: 5px;
+}
