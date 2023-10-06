@@ -24,7 +24,7 @@ body {
 }
 
 .box {
-    width: 250px; /* Adjusted box width */
+    width: 500px; 
     padding: 20px 5px;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -37,6 +37,14 @@ body {
 
 .personal-stories {
     background-color: #e0e0e0;
+    position: relative;
+}
+
+.send-story-button {
+    position: absolute;
+    top: 100%; /* Position it just below the gray box */
+    left: 50%; /* Position it in the center */
+    transform: translateX(-50%); /* Center it horizontally */
 }
 
 .scroll-box {
