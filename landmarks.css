@@ -22,13 +22,7 @@
 
 .thumbnail img {
     max-width: 100px; /* Adjust the size as needed */
-}
-
-.navButton {
-    font-size: 2em;
-    cursor: pointer;
-    margin: 0 10px;
-    display: block;
+    height: auto; /* Maintain aspect ratio */
 }
 
 .navButton.prev {
@@ -37,4 +31,6 @@
 
 #mainImage {
     transition: opacity 0.5s ease-in-out; /* This sets up a transition for opacity */
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
 }
