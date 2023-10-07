@@ -1,3 +1,4 @@
+/* General Styles */
 body, html {
     height: 100%;
     margin: 0;
@@ -9,6 +10,7 @@ body, html {
     flex-direction: column;
 }
 
+/* Main Container Styles */
 .container {
     display: flex;
     margin: 50px auto;
@@ -19,6 +21,7 @@ body, html {
     overflow: hidden;
 }
 
+/* Featured Image Styles */
 .image {
     width: 35%;
     overflow: hidden;
@@ -31,6 +34,7 @@ body, html {
     object-position: center;
 }
 
+/* Content Section Styles */
 .scroll-box {
     width: 65%;
     padding: 20px;
@@ -38,17 +42,20 @@ body, html {
     overflow-y: auto;
 }
 
+/* Heading Styles */
 h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
+/* Paragraph Styles */
 p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
+/* Helpful Links Section Styles */
 .helpful-links {
     margin: 50px auto;
     max-width: 70%;
@@ -58,12 +65,14 @@ p {
     padding: 20px;
 }
 
+/* Helpful Links Heading Styles */
 .helpful-links h1 {
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Helpful Links Grid Styles */
 .link-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -71,14 +80,44 @@ p {
     gap: 10px;
 }
 
+/* Individual Link Styles */
 .link {
     background-color: #f5f5f5;
     padding: 10px;
     border-radius: 10px;
+    transition: background-color 0.3s ease; /* Transition effect */
 }
 
 .link a {
     text-decoration: none;
     color: #000;
     font-size: 16px;
+}
+
+/* Link Hover Effect */
+.link:hover {
+    background-color: #4287f5; /* Change to blue on hover */
+}
+
+/* Home Button Styles */
+.home-button {
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.home-button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+/* Home Button Hover Effect */
+.home-button:hover {
+    background-color: #4287f5; /* Change to blue on hover */
 }

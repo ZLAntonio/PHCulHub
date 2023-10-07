@@ -75,3 +75,31 @@ body {
     background-color: #4628bf;
     border-color: #4628bf;
 }
+
+.send-story-button {
+    position: absolute;
+    top: 80%; /* Adjusted the top position */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-links {
+    position: absolute;
+    top: 10px; /* Adjusted the top position */
+    left: 10px; /* Adjusted the left position */
+}
+
+.home-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 100%;
+    background-color: #ffd700;
+    transition: background-color 0.3s ease;
+}
+
+
+.home-link:hover {
+    background-color: #0000ff; /* Blue */
+}
+
